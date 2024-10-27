@@ -74,7 +74,16 @@
 
                     const tagInfo = createTagInfo(tagName, id, classList, colors);
                     styleElement(element, colors);
-                    element.prepend(tagInfo);
+
+                    if (tagName === 'input') {
+                        const rect = element.getBoundingClientRect();
+                        tagInfo.style.position = 'absolute';
+                        tagInfo.style.top = `${rect.top - 30}px`; 
+                        tagInfo.style.left = `${rect.left}px`;
+                        document.body.appendChild(tagInfo);
+                    } else {
+                        element.prepend(tagInfo);
+                    }
                 }
             });
         }
