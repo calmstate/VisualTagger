@@ -1,3 +1,5 @@
+![Visual Tagger Logo](https://github.com/calmstate/VisualTagger/blob/main/logo.svg)
+
 # Visual Tagger for AI Interaction
 
 ## Description
