@@ -1,4 +1,4 @@
-![Visual Tagger Logo](https://github.com/calmstate/VisualTagger/blob/main/logo.svg)
+<img src="https://github.com/calmstate/VisualTagger/blob/main/logo.svg" alt="Visual Tagger Logo" width="30%"/>
 
 # Visual Tagger for AI Interaction
 
