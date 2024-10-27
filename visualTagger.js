@@ -47,23 +47,21 @@
             marginTop: "15px"
         });
     }
-
+    
     function restoreElementStyle(element) {
         element.style.border = element.dataset.originalBorder || "";
         element.style.marginTop = element.dataset.originalMarginTop || "";
         delete element.dataset.originalBorder;
         delete element.dataset.originalMarginTop;
     }
-
+    
     function VisualTagger() {
         const relevantElements = Array.from(document.querySelectorAll(Object.keys(tagColors).join(',')));
 
         if (document.querySelector('.visual-tagger-info')) {
-            relevantElements.forEach(element => {
-                const tagInfo = element.querySelector('.visual-tagger-info');
-                if (tagInfo) tagInfo.remove();
-                restoreElementStyle(element);
-            });
+            const taggedElements = document.querySelectorAll('.visual-tagger-info');
+                  taggedElements.forEach(e=>e.remove());
+                  relevantElements.forEach(element => restoreElementStyle(element));
         } else {
             relevantElements.forEach(element => {
                 const tagName = element.tagName.toLowerCase();
@@ -74,10 +72,10 @@
 
                     const tagInfo = createTagInfo(tagName, id, classList, colors);
                     styleElement(element, colors);
+                
 
                     if (tagName === 'input') {
                         const rect = element.getBoundingClientRect();
-                        tagInfo.style.position = 'absolute';
                         tagInfo.style.top = `${rect.top - 30}px`; 
                         tagInfo.style.left = `${rect.left}px`;
                         document.body.appendChild(tagInfo);
