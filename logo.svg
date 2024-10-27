@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 833.51 495.45">
+  <path d="M172.91,441.81c6.59,0,12.07-.37,16.54-1.01v41.04c-11.93,3.27-24.37,4.93-37.36,4.93-22.8,0-39.66-4.65-50.53-13.96-10.87-9.3-16.31-23.44-16.31-42.42v-91.48h-27.13v-39.84h27.13l-1.84-49.15L0,0h67.29l49.98,183.32L167.43,0h67.8l-82.91,246.28-.83,52.78h35.01v39.84h-35.01v84.34c0,6.91,1.47,11.75,4.33,14.46,2.9,2.72,8.57,4.1,17.09,4.1Z" style="fill: #21c1d6; stroke-width: 0px;"/>
+  <text transform="translate(258.43 314.76)" style="fill: #237c9b; font-family: Roboto-Black, Roboto; font-size: 189.45px; font-weight: 800; letter-spacing: 0em;"><tspan x="0" y="0">visual</tspan></text>
+  <text transform="translate(276.96 444.11)" style="fill: #237c9b; font-family: Roboto-Black, Roboto; font-size: 189.45px; font-weight: 800; letter-spacing: 0em;"><tspan x="0" y="0">tagger</tspan></text>
+</svg>
