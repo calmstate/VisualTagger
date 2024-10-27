@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Visual Tagger",
+    "version": "1.0",
+    "description": "Runs the visualTagger.js script on the active page.",
+    "permissions": ["scripting", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    }
+  }
+  
