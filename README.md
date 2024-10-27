@@ -10,9 +10,25 @@ The **Visual Tagger** is a JavaScript script designed to provide visual guidance
 
 The script applies visual tagging to HTML elements that have defined colors, providing a clear visual representation. Each tagged element is highlighted with a colored border, and a corresponding label is inserted above it, displaying its tag name, ID, and classes. This allows AIs to understand the page structure and interact with the elements effectively.
 
-## How to Use
+## Chrome Extension
 
-To use the Visual Tagger:
+We now offer a Chrome Extension version of the Visual Tagger! This extension makes it even easier to inject the Visual Tagger into web pages with just one click.
+
+### Loading the Extension in Chrome
+
+To load the Visual Tagger Chrome extension:
+
+1. **Clone or download the repository** to your local machine.
+2. Go to `chrome://extensions` in your Chrome browser.
+3. Enable **Developer mode** (toggle found in the upper-right corner).
+4. Click **"Load unpacked"** and select the folder containing the extension files.
+5. The Visual Tagger icon will appear in your extensions bar, ready to inject the visual tagging.
+
+Now, simply click the icon to toggle the Visual Tagger on any page!
+
+## How to Use Without Extension
+
+To use the Visual Tagger script directly:
 
 1. **Open the web page** where you want to run the Visual Tagger.
 2. **Open the browser console** (usually by pressing `F12` or `Ctrl + Shift + I`).
