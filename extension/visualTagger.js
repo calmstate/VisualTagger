@@ -72,16 +72,12 @@
 
                     const tagInfo = createTagInfo(tagName, id, classList, colors);
                     styleElement(element, colors);
-                
-
-                    if (tagName === 'input') {
-                        const rect = element.getBoundingClientRect();
-                        tagInfo.style.top = `${rect.top - 30}px`; 
-                        tagInfo.style.left = `${rect.left}px`;
-                        document.body.appendChild(tagInfo);
-                    } else {
-                        element.prepend(tagInfo);
-                    }
+                 
+                    const rect = element.getBoundingClientRect();
+                    tagInfo.style.top = `${rect.top - 30}px`; 
+                    tagInfo.style.left = `${rect.left}px`;
+                    document.body.appendChild(tagInfo);
+                   
                 }
             });
         }
